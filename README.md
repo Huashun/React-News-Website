@@ -1,11 +1,14 @@
 # React News website
 **The Website** develop functions such as
 
-    •not finish so far
+    •Daily News pushing
+    •Detail display of news
+    •User Profile
     
 **Features**  
 
-    •not add so far
+    •React framework
+    •responsive design (Ant design & react open source)
 
 # Screenshots of The Website
 #### • `Website intial screen` 
