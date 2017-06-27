@@ -1,0 +1,116 @@
+.logo {
+    align-items: center;
+    display: flex;
+}
+
+.logo img {
+    width: 48px;
+    height: 48px;
+}
+
+.logo span {
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+.footer {
+    text-align: center;
+}
+
+
+/*adjust Ant Design navigation padding*/
+
+header div:nth-child(2) {
+    margin-right: 15px;
+}
+
+header div:nth-child(3) li {
+    padding: 0 10px;
+}
+
+header div:last-child li>button, header div:last-child li>a {
+    float: left;
+    margin-top: 9px;
+    display: inline-flex;
+}
+
+header .ant-row .ant-col-18 li>a {
+    display: inline-flex;
+}
+
+header div:last-child li>a>button {
+    padding: 4px;
+    margin-left: 6px;
+}
+
+#logoutButton {
+    margin-top: 9px;
+}
+
+.container{
+  padding-top: 20px;
+}
+
+.left-container{
+  width: 400px;
+  float: left;
+}
+
+.carousel{
+   width: 400px;
+   float: left;
+   margin-bottom: 12px;
+}
+
+.carousel .slick-track .slick-slide{
+  height: 220px;
+}
+
+.carousel img{
+  width: 100%;
+  height: 100%;
+}
+
+.ant-tabs.ant-tabs-top.tabs-news.ant-tabs-line{
+  padding-left: 10px;
+}
+
+.ant-card.ant-card-bordered .ant-card-body{
+  text-align: center;
+  margin: 0 auto;
+  padding: 24px 12px;
+}
+
+.ant-card.ant-card-bordered .ant-card-body ul{
+  min-height: 450px;
+}
+
+@media (max-width: 850px) {
+  .left-container{
+    float: none;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .ant-card.ant-card-bordered .ant-card-body ul{
+    height: auto;
+  }
+
+}
+
+.top-news-list{
+  margin: 12px auto;
+}
+
+.image-block{
+  display: inline-block;
+  float: left;
+  padding: 0 5px;
+}
+
+.image-block p{
+  max-width: 112px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
