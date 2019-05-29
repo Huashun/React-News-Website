@@ -32,7 +32,7 @@
 <img src="./images/screenshots/m2.png" width="375" height="667"/>
 
 # License
-   Copyright {2017} {Liangchen Zhou}
+   Copyright {2017} {Huashun Li, Liangchen Zhou}
    
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
